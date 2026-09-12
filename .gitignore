@@ -1,0 +1,45 @@
+# --------------------------------------------
+# Dependencies & Build Output
+# --------------------------------------------
+node_modules/
+dist/
+banking-app/target/
+*.log
+npm-debug.log*
+yarn-error.log*
+bun.lock
+
+# Backend-served frontend build (generated, rebuild via npm run build)
+banking-app/src/main/resources/static/
+
+# --------------------------------------------
+# Environment & Secrets  (KEEP OUT OF GIT!)
+# --------------------------------------------
+.env
+.env.local
+.env.*.local
+.env.production
+application-local.properties
+
+# --------------------------------------------
+# AI Studio artifact metadata
+# --------------------------------------------
+metadata.json
+
+# --------------------------------------------
+# IDE & OS files
+# --------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# --------------------------------------------
+# Java / Maven
+# --------------------------------------------
+*.class
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
